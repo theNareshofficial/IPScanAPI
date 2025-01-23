@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - IPScanAPI</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'navbar.html' %}
+
+    <div class="container">
+        <h1>About IPScanAPI</h1>
+        <p>
+            <strong>IPScanAPI</strong> is a simple and efficient IP lookup tool built using <strong>Flask</strong>. 
+            It allows users to fetch real-time details of an IP address or domain, including location, region, and country details. 
+            This project is designed for cybersecurity professionals, developers, and researchers who need quick insights into IP addresses.
+        </p>
+
+        <h2>🔹 Features</h2>
+        <ul>
+            <li>🌍 Get detailed IP information (City, Region, Country, Location)</li>
+            <li>🔄 Works with both <strong>IP addresses</strong> and <strong>domains</strong></li>
+            <li>⚡ Fast and lightweight, built with Flask</li>
+            <li>🎨 Simple UI for easy usage</li>
+        </ul>
+
+        <h2>🔗 Connect with Me</h2>
+        <p>Follow me on my social media platforms for more updates and projects:</p>
+        <ul class="social-links">
+            <li><a href="https://github.com/theNareshofficial" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://instagram.com/theNareshofficial" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://twitter.com/theNareshofficial" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://linkedin.com/in/theNareshofficial" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
