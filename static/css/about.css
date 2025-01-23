@@ -1,0 +1,29 @@
+/* Social Links Styling */
+ul.social-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            gap: 15px;
+}
+
+ul.social-links li {
+            display: inline;
+}
+
+ul.social-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+}
+
+ul.social-links a:hover {
+            color: #007bff;
+}
+
+ul.social-links i {
+            font-size: 1.5em;
+}
