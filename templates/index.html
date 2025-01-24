@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='logo.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPScanAPI</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
@@ -12,9 +13,9 @@
 
 <body>
 
-    <h1>IP Lookup</h1>
+    <h1>IP INFO🔎</h1>
     <form action="/ipinfo" method="get">
-        <input type="text" name="ip" placeholder="Enter IP or Domain" , required>
+        <input type="text" name="ip" placeholder="Search...🔎" , required>
         <button type="submit">Check</button>
     </form>
 
