@@ -1,8 +1,8 @@
 nav {
             display: flex;
             justify-content: space-between;
-            padding: 1rem 2rem;
-            background: #cfd8dc;
+            padding: 2rem 2rem;
+            background: #007bff;
 }
 
 nav ul {
@@ -16,4 +16,16 @@ nav li {
 
 nav a {
             text-decoration: none;
+            color: white;
+            border: 3px gainsboro solid;
+            padding: 10px;
+            border-radius: 10px ;
+            font-size: 1.2em;
+            font-size: large;
+}
+
+nav a:hover {
+            color: white;
+            background: orangered;
+            border: 3px gainsboro solid;
 }

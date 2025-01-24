@@ -1,9 +1,26 @@
 /* Social Links Styling */
+
+body {
+            background: black;
+            color: white;
+            padding: 0;
+            margin: 0;
+}
+
+.container {
+            padding-left: 20px;
+            font-size: larger;
+}
+
+h1 {
+            text-decoration: underline;
+}
+
 ul.social-links {
             list-style-type: none;
             padding: 0;
             margin: 20px 0;
-            display: flex;
+            display: flex; 
             gap: 15px;
 }
 
@@ -13,7 +30,11 @@ ul.social-links li {
 
 ul.social-links a {
             text-decoration: none;
-            color: #333;
+            color: black;
+            background: white;
+            border: 5px gainsboro solid;
+            padding: 10px;
+            border-radius: 10px ;
             font-size: 1.2em;
             display: flex;
             align-items: center;
