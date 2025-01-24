@@ -1,3 +1,4 @@
+<img src="./assets/dashboard.png">
 # IPScanAPI
 
 IPScanAPI is a simple Flask-based API that retrieves IP address details, including geolocation, city, region, and country. It supports both **IP addresses and domain names**.
@@ -24,3 +25,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
+
+<img src="./assets/result.png">
+<img src="./assets/about.png">
